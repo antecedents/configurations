@@ -1,0 +1,4 @@
+parameters:
+  boards: 'https://www.opendata.nhs.scot/api/3/action/datastore_search?resource_id=652ff726-e676-4a20-abda-435b98dd7bdc&limit=100'
+  institutions: 'https://www.opendata.nhs.scot/api/3/action/datastore_search?resource_id=c698f450-eeed-41a0-88f7-c1e40a568acc&limit=1000'
+  data: 'https://www.opendata.nhs.scot/api/3/action/datastore_search?resource_id=a5f7ca94-c810-41b5-a7c9-25c18d43e5a4&limit=1000000'
