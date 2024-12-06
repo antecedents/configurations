@@ -1,0 +1,22 @@
+{
+  "week_ending_date": "A date of format yyyy-mm-dd.  The data applies to the week ending by this date.  WeekEndingDate",
+  "health_board_code": "The official identification code of a Scotland health board.  HBT, HB",
+  "hospital_code": "The official identification code of a Scotland hospital.  TreatmentLocation, HospitalCode",
+  "n_attendances": "The number of people that attended accidents and emergency during the week in question.  NumberOfAttendancesEpisode",
+  "n_within_4_hours": "The number of people attended to within 4 hours.  NumberWithin4HoursEpisode",
+  "n_over_4_hours": "The number of people waiting more than 4 hours.  NumberOver4HoursEpisode",
+  "n_over_8_hours": "The number of people waiting more than 8 hours.  NumberOver8HoursEpisode",
+  "n_over_12_hours": "The number of people waiting more than 12 hours.  NumberOver12HoursEpisode",
+  "health_board_name": "The name of the Scotland health board.  HBName",
+  "health_board_date_enacted": "The date the health board was enacted, constituted.  HBDateEnacted",
+  "hospital_name": "The name of the hospital, i.e., of the treatment location.  HospitalName",
+  "address_line_1": "Line 1 of the hospital address.  AddressLine1",
+  "address_line_2": "Line 2 of the hospital address.  AddressLine2",
+  "address_line_3": "Line 3 of the hospital address.  AddressLine3",
+  "address_line_4": "Line 4 of the hospital address.  AddressLine4",
+  "post_code": "The post code of the hospital address.  Postcode",
+  "hscp_code": "The geographic health and social care partnership code of the hospital.  HSCP, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "council_area": "The geographic council area code of the hospital.  CouncilArea, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "intermediate_zone": "The geographic intermediate zone code of the hospital.  IntermediateZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "data_zone": "The geographic data zone code of the hospital.  DataZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels"
+}

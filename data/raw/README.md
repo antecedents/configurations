@@ -6,6 +6,10 @@
 * [Institutions](https://www.opendata.nhs.scot/dataset/hospital-codes/resource/c698f450-eeed-41a0-88f7-c1e40a568acc)
 * [Data](https://www.opendata.nhs.scot/dataset/weekly-accident-and-emergency-activity-and-waiting-times)
 
+and
+
+* [Health & Social Care Partnerships](https://hscscotland.scot/hscps/)
+
 <br>
 <br>
 
