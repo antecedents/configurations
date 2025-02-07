@@ -1,0 +1,13 @@
+{
+  "hospital_code": "The official identification code of a Scotland hospital.  TreatmentLocation, HospitalCode",
+  "hospital_name": "The name of the hospital, i.e., of the treatment location.  HospitalName",
+  "address_line_1": "Line 1 of the hospital address.  AddressLine1",
+  "address_line_2": "Line 2 of the hospital address.  AddressLine2",
+  "address_line_3": "Line 3 of the hospital address.  AddressLine3",
+  "address_line_4": "Line 4 of the hospital address.  AddressLine4",
+  "post_code": "The post code of the hospital address.  Postcode",
+  "hscp_code": "The geographic health and social care partnership code of the hospital.  HSCP, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "council_area": "The geographic council area code of the hospital.  CouncilArea, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "intermediate_zone": "The geographic intermediate zone code of the hospital.  IntermediateZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
+  "data_zone": "The geographic data zone code of the hospital.  DataZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels"
+}
