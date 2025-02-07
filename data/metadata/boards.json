@@ -1,0 +1,5 @@
+{
+  "health_board_code": "The official identification code of a Scotland health board.  HBT, HB",
+  "health_board_name": "The name of the Scotland health board.  HBName",
+  "health_board_date_enacted": "The date the health board was enacted, constituted.  HBDateEnacted"
+}
