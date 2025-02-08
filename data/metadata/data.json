@@ -1,0 +1,12 @@
+{
+  "week_ending_date": "A date of format yyyy-mm-dd.  The data applies to the week ending by this date.  WeekEndingDate",
+  "health_board_code": "The official identification code of a Scotland health board.  HBT, HB",
+  "hospital_code": "The official identification code of a Scotland hospital.  TreatmentLocation, HospitalCode",
+  "n_attendances": "The number of people that attended accidents and emergency during the week in question.  NumberOfAttendancesEpisode",
+  "n_within_4_hours": "The number of people attended to within 4 hours.  NumberWithin4HoursEpisode",
+  "n_over_4_hours": "The number of people waiting more than 4 hours.  NumberOver4HoursEpisode",
+  "n_over_8_hours": "The number of people waiting more than 8 hours.  NumberOver8HoursEpisode",
+  "n_over_12_hours": "The number of people waiting more than 12 hours.  NumberOver12HoursEpisode",
+  "department_type": "The department type is either 1 or 3.  Type 1 represents core emergency department.  Type 3 represents non-core minor injuries unit or other.  DepartmentType",
+  "attendance_category": "The category of the patient visits.  The options are planned, unplanned, all.  AttendanceCategory"
+}
