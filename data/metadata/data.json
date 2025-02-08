@@ -7,16 +7,6 @@
   "n_over_4_hours": "The number of people waiting more than 4 hours.  NumberOver4HoursEpisode",
   "n_over_8_hours": "The number of people waiting more than 8 hours.  NumberOver8HoursEpisode",
   "n_over_12_hours": "The number of people waiting more than 12 hours.  NumberOver12HoursEpisode",
-  "health_board_name": "The name of the Scotland health board.  HBName",
-  "health_board_date_enacted": "The date the health board was enacted, constituted.  HBDateEnacted",
-  "hospital_name": "The name of the hospital, i.e., of the treatment location.  HospitalName",
-  "address_line_1": "Line 1 of the hospital address.  AddressLine1",
-  "address_line_2": "Line 2 of the hospital address.  AddressLine2",
-  "address_line_3": "Line 3 of the hospital address.  AddressLine3",
-  "address_line_4": "Line 4 of the hospital address.  AddressLine4",
-  "post_code": "The post code of the hospital address.  Postcode",
-  "hscp_code": "The geographic health and social care partnership code of the hospital.  HSCP, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
-  "council_area": "The geographic council area code of the hospital.  CouncilArea, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
-  "intermediate_zone": "The geographic intermediate zone code of the hospital.  IntermediateZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
-  "data_zone": "The geographic data zone code of the hospital.  DataZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels"
+  "department_type": "The department type is either 1 or 3.  Type 1 represents core emergency department.  Type 3 represents non-core minor injuries unit or other.  DepartmentType",
+  "attendance_category": "The category of the patient visits.  The options are planned, unplanned, all.  AttendanceCategory"
 }
