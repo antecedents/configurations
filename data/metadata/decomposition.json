@@ -1,0 +1,10 @@
+{
+  "milliseconds": "The epoch time in milliseconds, since 00:00:00 1 January 1970.",
+  "observation": "The original time series.",
+  "trend": "The trend component of the decomposition.",
+  "seasonal": "The seasonal component of the decomposition.",
+  "residue": "The residue.",
+  "weight": "",
+  "health_board_code": "The health board code.",
+  "hospital_code": "The hospital code."
+}
