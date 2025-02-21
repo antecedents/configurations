@@ -1,0 +1,18 @@
+{
+  "seasons": 52,
+  "trends": 1,
+  "priors" : {
+    "alpha_hat_location": {"mu": 0, "sigma": 0.1},
+    "alpha_hat_scale": {"alpha": 3, "beta": 0.5},
+    "beta_hat_location": {"mu": 0, "sigma": 0.1},
+    "beta_hat_scale": {"alpha": 3, "beta": 0.5},
+    "z_scale_alpha": {"alpha": 3, "beta": 0.5},
+    "z_scale_beta": {"alpha": 3, "beta": 0.5}
+  },
+  "noise": {"sigma": 1},
+  "n_lags": 52,
+  "n_features": 1,
+  "n_samples": 500,
+  "ahead": 9,
+  "interval": [45, 55]
+}
