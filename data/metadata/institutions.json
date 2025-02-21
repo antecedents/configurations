@@ -6,6 +6,7 @@
   "address_line_3": "Line 3 of the hospital address.  AddressLine3",
   "address_line_4": "Line 4 of the hospital address.  AddressLine4",
   "post_code": "The post code of the hospital address.  Postcode",
+  "health_board_name": "The name of the Scotland health board.  HBName",
   "hscp_code": "The geographic health and social care partnership code of the hospital.  HSCP, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
   "council_area": "The geographic council area code of the hospital.  CouncilArea, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
   "intermediate_zone": "The geographic intermediate zone code of the hospital.  IntermediateZone, https://www.opendata.nhs.scot/dataset/geography-codes-and-labels",
