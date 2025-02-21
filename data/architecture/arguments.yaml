@@ -26,4 +26,4 @@ n_lags: 52
 n_features: 1
 n_samples: 500
 ahead: 9
-interval: [45, 55]
+interval: [ 45, 55 ]
