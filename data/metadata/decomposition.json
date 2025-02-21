@@ -4,7 +4,6 @@
   "trend": "The trend component of the decomposition.",
   "seasonal": "The seasonal component of the decomposition.",
   "residue": "The residue.",
-  "weight": "",
   "health_board_code": "The health board code.",
   "hospital_code": "The hospital code."
 }
