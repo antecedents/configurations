@@ -1,29 +1,30 @@
-seed: 5
+seed: 35
 seasons: 52
 trends: 1
 cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
 priors:
-  alpha_hat_location:
+  coefficients:
     mu: 0
+    sigma: 0.25
+    size: 54
+  sigma: 8
+  init:
+    mu: 0.04
     sigma: 0.1
-  alpha_hat_scale:
-    alpha: 3
-    beta: 0.5
-  beta_hat_location:
+    size: 53
+  degree:
+    lower: 1.0
+    upper: 5.0
+  alpha:
+    mu: 6.5
+    sigma: 0.1
+  beta:
+    mu: -0.5
+    sigma: 0.25
+  fourier:
     mu: 0
-    sigma: 0.1
-  beta_hat_scale:
-    alpha: 3
-    beta: 0.5
-  z_scale_alpha:
-    alpha: 3
-    beta: 0.5
-  z_scale_beta:
-    alpha: 3
-    beta: 0.5
-noise:
-  sigma: 1
-n_lags: 52
+    sigma: 2
+n_lags: 53
 n_features: 1
 n_samples: 500
 ahead: 9
