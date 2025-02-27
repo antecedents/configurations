@@ -1,0 +1,4 @@
+seed: 5
+seasons: 52
+trends: 1
+cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
