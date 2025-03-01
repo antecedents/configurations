@@ -7,10 +7,10 @@ sc:
   smoother_trend: null
   degree_seasonal: 0
   degree_trend: 0
-  P: 1
+  P: 1 # Auto-regressive order
   D: 0
   Q: 0
-  m: 52
+  m: 52 # The # of observations per year
 tc:
   covariance:
     length:
