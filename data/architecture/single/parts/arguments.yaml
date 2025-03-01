@@ -1,0 +1,21 @@
+seed: 5
+seasons: 52
+trends: 1
+cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
+sc:
+  smoother_seasonal: 51
+  smoother_trend: null
+  degree_seasonal: 0
+  degree_trend: 0
+  P: 1 # Auto-regressive order
+  D: 0 # The degree of first differencing
+  Q: 0 # Moving average order
+  m: 52 # The # of observations per year
+tc:
+  covariance:
+    length: # Gamma Distribution
+      alpha: 2
+      beta: 1
+    eta: # Half Cauchy
+      beta: 5
+ahead: 9

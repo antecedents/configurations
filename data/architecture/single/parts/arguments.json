@@ -1,0 +1,23 @@
+{
+  "seed": 5,
+  "seasons": 52,
+  "trends": 1,
+  "cycles": 3,
+  "sc": {
+    "smoother_seasonal": 51,
+    "smoother_trend": null,
+    "degree_seasonal": 0,
+    "degree_trend": 0,
+    "P": 1,
+    "D": 0,
+    "Q": 0,
+    "m": 52
+  },
+  "tc": {
+    "covariance": {
+      "length": {"alpha": 2, "beta": 1},
+      "eta": {"beta":  5}
+    }
+  },
+  "ahead": 9
+}
