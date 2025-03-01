@@ -13,9 +13,9 @@ sc:
   m: 52 # The # of observations per year
 tc:
   covariance:
-    length:
+    length: # Gamma Distribution
       alpha: 2
       beta: 1
-    eta:
+    eta: # Half Cauchy
       beta: 5
 ahead: 9
