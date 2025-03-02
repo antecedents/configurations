@@ -16,7 +16,7 @@ sc: # Seasonal Component Modelling
   D: 0 # The degree of first differencing
   Q: 0 # Moving average order
   m: 52 # The # of observations per year
-tc: # Trend Component Modelling
+tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   covariance: # Matérn Covariance
     length: # Via a Gamma distribution
       alpha: 2
