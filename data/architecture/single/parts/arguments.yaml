@@ -7,7 +7,7 @@ decompose: # For Seasonal Trend LOESS (locally estimated scatterplot smoothing) 
   smoother_trend: null
   degree_seasonal: 0
   degree_trend: 1
-sc: # Seasonal Component Modelling
+sc: # Seasonal Component Modelling: Naive Modelling
   smoother_seasonal: 51
   smoother_trend: null
   degree_seasonal: 0
