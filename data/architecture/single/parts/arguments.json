@@ -3,6 +3,12 @@
   "seasons": 52,
   "trends": 1,
   "cycles": 3,
+  "decompose": {
+    "smoother_seasonal": 51,
+    "smoother_trend": null,
+    "degree_seasonal": 0,
+    "degree_trend": 1
+  },
   "sc": {
     "smoother_seasonal": 51,
     "smoother_trend": null,
