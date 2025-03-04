@@ -1,0 +1,5 @@
+{
+  "storage.nc": "The inference data.",
+  "model.pdf": "The model architecture.",
+  "model.txt": "The model algorithm."
+}
