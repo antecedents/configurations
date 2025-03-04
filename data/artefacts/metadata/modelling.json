@@ -1,9 +1,10 @@
 {
-  "milliseconds": "The epoch time in milliseconds, since 00:00:00 1 January 1970.",
-  "observation": "The original time series.",
-  "trend": "The trend component of the decomposition.",
-  "seasonal": "The seasonal component of the decomposition.",
-  "residue": "The residue.",
+  "week_ending_date": "The week ending date, a Sunday.",
   "health_board_code": "The health board code.",
-  "hospital_code": "The hospital code."
+  "hospital_code": "The hospital code.",
+  "n_attendances": "The original counts.",
+  "ln": "The natural logarithm of n_attendances",
+  "trend": "The trend component of ln, after decomposition.",
+  "residue": "The residue component of ln, after decomposition.",
+  "seasonal": "The seasonal component of ln, after decomposition."
 }
