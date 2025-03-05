@@ -3,6 +3,7 @@
   "seasons": 52,
   "trends": 1,
   "cycles": 3,
+  "frequency": "W-SUN",
   "decompose": {
     "smoother_seasonal": 51,
     "smoother_trend": null,
