@@ -24,6 +24,6 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
       beta: 1
     variance_control: # Via a half-Cauchy distribution
       beta: 5
-  ml_sigma:
+  ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
     beta: 5
 ahead: 9
