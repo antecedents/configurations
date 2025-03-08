@@ -19,9 +19,9 @@ sc: # Seasonal Component Modelling: Naive Modelling
   m: 52 # The # of observations per year
 tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   covariance: # Matérn Covariance
-    length: # Via a Gamma distribution
+    spatial_scaling: # Via a Gamma distribution
       alpha: 2
       beta: 1
-    eta: # Via a half-Cauchy distribution
+    variance_control: # Via a half-Cauchy distribution
       beta: 5
 ahead: 9
