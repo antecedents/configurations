@@ -29,10 +29,10 @@
     "draws": 500,
     "tune": 150,
     "chains": 4,
-    "chain_method": "vectorized",
+    "chain_method": "parallel",
     "nuts_sampler": "numpyro",
     "target_accept": 0.95
   },
   "ahead": 9,
-  "device": "gpu"
+  "device": "cpu"
 }
