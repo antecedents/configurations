@@ -26,11 +26,11 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
       beta: 5
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
     beta: 5
-  draws: 500
+  draws: 350
   tune: 150
   chains: 4
-  chain_method: "parallel"
+  chain_method: "vectorized"
   nuts_sampler: "numpyro"
   target_accept: 0.95
 ahead: 9
-device: "cpu"
+device: "gpu"
