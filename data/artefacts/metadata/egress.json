@@ -1,5 +1,10 @@
 {
-  "storage.nc": "The inference data.",
-  "model.pdf": "The model architecture.",
-  "model.txt": "The model algorithm."
+  "scf_estimates.json": "Seasonal Component Forecasting -> Estimates.",
+  "scf_extra.json": "Seasonal Component Forecasting -> Supplementary details.",
+  "scf_measures.tex": "Seasonal Component Forecasting -> Model measures.",
+  "scf_measures.txt": "Seasonal Component Forecasting -> Model measures.",
+  "tcf_algorithm.pdf": "Trend Component Forecasting -> The model architecture diagram.",
+  "tcf_algorithm.txt": "Trend Component Forecasting -> The definitions of the model architecture distributions.",
+  "tcf_details.nc": "Trend Component Forecasting -> The inference data.",
+  "tcf_forecasts.csv": "Trend Component Forecasting -> Estimates."
 }
