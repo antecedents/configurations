@@ -33,6 +33,6 @@
     "nuts_sampler": "numpyro",
     "target_accept": 0.95
   },
-  "ahead": 9,
-  "excerpt": 7
+  "ahead": 8,
+  "excerpt": 9
 }
