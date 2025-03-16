@@ -26,11 +26,11 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
       beta: 5
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
     beta: 5
-  draws: 500
-  tune: 100
-  chains: 4
-  chain_method: "parallel"
-  nuts_sampler: "blackjax"
-  target_accept: 0.95
-ahead: 9
-excerpt: null
+  draws: 500 # Study pymc.sample() at www.pymc.io
+  tune: 100 # Study pymc.sample() at www.pymc.io
+  chains: 4 # Study pymc.sample() at www.pymc.io
+  chain_method: "parallel" # Study pymc.sample() at www.pymc.io
+  nuts_sampler: "blackjax" # Study pymc.sample() at www.pymc.io
+  target_accept: 0.95 # Study pymc.sample() at www.pymc.io
+ahead: 9 # Prediction steps ahead
+excerpt: 13 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
