@@ -33,5 +33,6 @@
     "nuts_sampler": "blackjax",
     "target_accept": 0.95
   },
-  "ahead": 9
+  "ahead": 9,
+  "excerpt": null
 }
