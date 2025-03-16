@@ -30,9 +30,9 @@
     "tune": 100,
     "chains": 4,
     "chain_method": "parallel",
-    "nuts_sampler": "blackjax",
+    "nuts_sampler": "numpyro",
     "target_accept": 0.95
   },
   "ahead": 9,
-  "excerpt": 13
+  "excerpt": 7
 }
