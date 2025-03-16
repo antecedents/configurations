@@ -32,5 +32,5 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   chain_method: "parallel" # Study pymc.sample() at www.pymc.io
   nuts_sampler: "numpyro" # Study pymc.sample() at www.pymc.io
   target_accept: 0.95 # Study pymc.sample() at www.pymc.io
-ahead: 9 # Prediction steps ahead
-excerpt: 7 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
+ahead: 8 # Prediction steps ahead
+excerpt: 9 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
