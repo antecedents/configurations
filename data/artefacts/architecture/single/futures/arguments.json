@@ -22,7 +22,7 @@
   },
   "tc": {
     "covariance": {
-      "spatial_scaling": {"alpha": 2.0, "beta": 2.0},
+      "spatial_scaling": {"alpha": 5.0, "beta": 0.5},
       "variance_control": {"beta": 5}
     },
     "ml_sigma": {"beta": 5},
