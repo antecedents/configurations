@@ -33,4 +33,4 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   nuts_sampler: "numpyro" # Study pymc.sample() at www.pymc.io
   target_accept: 0.99 # Study pymc.sample() at www.pymc.io
 ahead: 8 # Prediction steps ahead
-excerpt: 8 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
+excerpt: 5 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
