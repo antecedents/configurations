@@ -20,8 +20,8 @@ sc: # Seasonal Component Modelling: Naive Modelling
 tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   covariance: # Matérn Covariance
     spatial_scaling: # Via a Gamma distribution
-      alpha: 2.0
-      beta: 2.0
+      alpha: 5.0
+      beta: 0.5
     variance_control: # Via a half-Cauchy distribution
       beta: 5
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
