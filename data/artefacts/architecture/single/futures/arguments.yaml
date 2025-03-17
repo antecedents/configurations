@@ -26,8 +26,8 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
       beta: 5
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
     beta: 5
-  draws: 2500 # Study pymc.sample() at www.pymc.io
-  tune: 1000 # Study pymc.sample() at www.pymc.io
+  draws: 2000 # Study pymc.sample() at www.pymc.io
+  tune: 850 # Study pymc.sample() at www.pymc.io
   chains: 4 # Study pymc.sample() at www.pymc.io
   chain_method: "parallel" # Study pymc.sample() at www.pymc.io
   nuts_sampler: "numpyro" # Study pymc.sample() at www.pymc.io
