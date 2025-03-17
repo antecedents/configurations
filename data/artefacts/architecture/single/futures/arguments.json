@@ -22,11 +22,11 @@
   },
   "tc": {
     "covariance": {
-      "spatial_scaling": {"alpha": 5.0, "beta": 0.5},
+      "spatial_scaling": {"alpha": 2.0, "beta": 2.0},
       "variance_control": {"beta": 5}
     },
     "ml_sigma": {"beta": 5},
-    "draws": 2500,
+    "draws": 2000,
     "tune": 950,
     "chains": 4,
     "chain_method": "parallel",
