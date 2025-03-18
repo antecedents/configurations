@@ -4,6 +4,7 @@
   "trends": 1,
   "cycles": 3,
   "frequency": "W-SUN",
+  "boundary": "2016-01-01",
   "decompose": {
     "smoother_seasonal": 51,
     "smoother_trend": null,
