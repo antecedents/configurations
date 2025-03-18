@@ -21,12 +21,12 @@ sc: # Seasonal Component Modelling: Naive Modelling
 tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   covariance: # Matérn Covariance
     spatial_scaling: # Via a Gamma distribution
-      alpha: 1.0
-      beta: 3.0
+      alpha: 5.0
+      beta: 0.25
     variance_control: # Via a half-Cauchy distribution
-      beta: 5
+      beta: 2.0
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
-    beta: 5
+    beta: 2.0
   draws: 2150 # Study pymc.sample() at www.pymc.io
   tune: 850 # Study pymc.sample() at www.pymc.io
   chains: 4 # Study pymc.sample() at www.pymc.io
@@ -34,4 +34,4 @@ tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   nuts_sampler: "numpyro" # Study pymc.sample() at www.pymc.io
   target_accept: 0.99 # Study pymc.sample() at www.pymc.io
 ahead: 5 # Prediction steps ahead
-excerpt: 9 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
+excerpt: 4 # Temporary.  Proceed with all institutions - null - or the first excerpt number of institutions.
