@@ -22,7 +22,7 @@
   },
   "tc": {
     "covariance": {
-      "spatial_scaling": {"alpha": 5.0, "beta": 2.0},
+      "spatial_scaling": {"alpha": 1.0, "beta": 3.0},
       "variance_control": {"beta": 5}
     },
     "ml_sigma": {"beta": 5},
@@ -33,6 +33,6 @@
     "nuts_sampler": "numpyro",
     "target_accept": 0.99
   },
-  "ahead": 8,
+  "ahead": 5,
   "excerpt": 9
 }
