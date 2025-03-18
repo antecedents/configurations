@@ -23,10 +23,10 @@
   },
   "tc": {
     "covariance": {
-      "spatial_scaling": {"alpha": 1.0, "beta": 3.0},
-      "variance_control": {"beta": 5}
+      "spatial_scaling": {"alpha": 5.0, "beta": 0.25},
+      "variance_control": {"beta": 2.0}
     },
-    "ml_sigma": {"beta": 5},
+    "ml_sigma": {"beta": 2.0},
     "draws": 2150,
     "tune": 850,
     "chains": 4,
@@ -35,5 +35,5 @@
     "target_accept": 0.99
   },
   "ahead": 5,
-  "excerpt": 9
+  "excerpt": 4
 }
