@@ -1,4 +1,4 @@
-seed: 5
+seed: 100
 seasons: 52
 trends: 1
 cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
@@ -20,17 +20,18 @@ sc: # Seasonal Component Modelling: Naive Modelling
 tc: # Trend Component Modelling: Bayesian Inference & Gaussian Processes
   covariance: # Matérn Covariance
     spatial_scaling: # Via a Gamma distribution
-      alpha: 2
-      beta: 1
+      alpha: 5
+      beta: 0.25
     variance_control: # Via a half-Cauchy distribution
-      beta: 5
+      beta: 2
   ml_sigma: # Vis-à-vis the `standard deviation prior distribution` of the marginal likelihood, half-Cauchy
-    beta: 5
-  draws: 500
-  tune: 100
+    beta: 2
+  draws: 2000
+  tune: 850
   chains: 4
   chain_method: "vectorized"
   nuts_sampler: "numpyro"
   target_accept: 0.95
 ahead: 9
+excerpt: 6
 device: "gpu"
