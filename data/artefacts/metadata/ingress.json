@@ -3,8 +3,7 @@
   "health_board_code": "The health board code.",
   "hospital_code": "The hospital code.",
   "n_attendances": "The original counts.",
-  "ln": "The natural logarithm of n_attendances",
-  "trend": "The trend component of ln, after decomposition.",
-  "residue": "The residue component of ln, after decomposition.",
-  "seasonal": "The seasonal component of ln, after decomposition."
+  "trend": "The trend component after decomposition.",
+  "residue": "The residue component after decomposition.",
+  "seasonal": "The seasonal component after decomposition."
 }
