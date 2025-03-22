@@ -1,10 +1,10 @@
 {
-  "seed": 5,
+  "seed": 100,
   "seasons": 52,
   "trends": 1,
   "cycles": 3,
   "frequency": "W-SUN",
-  "boundary": "2016-01-01",
+  "boundary": "2015-03-31",
   "decompose": {
     "smoother_seasonal": 51,
     "smoother_trend": null,
@@ -23,17 +23,17 @@
   },
   "tc": {
     "covariance": {
-      "spatial_scaling": {"alpha": 2.0, "beta": 1.0},
-      "variance_control": {"beta": 2.0}
+      "spatial_scaling": {"alpha": 5, "beta": 0.25},
+      "variance_control": {"beta": 2}
     },
-    "ml_sigma": {"beta": 2.0},
-    "draws": 2100,
+    "ml_sigma": {"beta": 2},
+    "draws": 2000,
     "tune": 850,
     "chains": 4,
     "chain_method": "parallel",
     "nuts_sampler": "numpyro",
-    "target_accept": 0.99
+    "target_accept": 0.95
   },
-  "ahead": 5,
-  "excerpt": 9
+  "ahead": 9,
+  "excerpt": 6
 }
