@@ -1,7 +1,9 @@
 {
   "seed": 25,
-  "spanning": 2.5,
-  "frequency": "7D",
+  "spanning": 6,
+  "cycles": 3,
+  "frequency": "W-SUN",
+  "boundary": "2015-03-31",
   "seasons": {
     "number_of": 52
   },
