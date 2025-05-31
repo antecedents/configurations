@@ -1,0 +1,8 @@
+{
+  "decompositions": "The trend, seasonal, and residue decompositions.",
+  "drift": "Sets of drift scores in relation to attendance numbers.",
+  "errors": "Sets of root mean square errors, and percentage error distributions, with respect to attendance numbers estimations.",
+  "forecasts": "Forecasts by point.",
+  "adjusting": "Forecasts by point, with naive adjustments via plausible residue effects.  The plausible residue effects depend on the residue decomposition of decompositions.",
+  "quantiles": "Quantiles of the decomposition residue."
+}
