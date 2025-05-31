@@ -4,13 +4,32 @@
       "week_ending_date": "The week ending date, a Sunday.",
       "health_board_code": "The health board code.",
       "hospital_code": "The hospital code.",
-      "n_attendances": "The original counts.",
-      "trend": "The trend component after decomposition.",
-      "residue": "The residue component after decomposition.",
-      "seasonal": "The seasonal component after decomposition."
+      "n_attendances": "The original counts."
     },
-    "model": {
-
+    "estimates": {
+      "observation": "An original attendances count.",
+      "lower_q": "The lower quartile of an attendance count estimate.",
+      "upper_q": "The upper quartile of an attendance count estimate.",
+      "median": "The median of an attendance count estimate.",
+      "lower_w": "The lower whisker of an attendance count estimate.",
+      "upper_w": "The upper whisker an attendance count estimate.",
+      "timestamp": "A timestamp."
+    },
+    "evidence_lower_boundary": {
+      "index": "The ordinal index of an evidence bound value.",
+      "evidence_lower_bound": "An evidence lower bound value."
+    },
+    "testing": {
+      "week_ending_date": "The week ending date, a Sunday.",
+      "health_board_code": "The health board code.",
+      "hospital_code": "The hospital code.",
+      "n_attendances": "The original counts."
+    },
+    "training": {
+      "week_ending_date": "The week ending date, a Sunday.",
+      "health_board_code": "The health board code.",
+      "hospital_code": "The hospital code.",
+      "n_attendances": "The original counts."
     }
   },
   "futures": {
