@@ -1,5 +1,4 @@
 seed: 25
-spanning: 6 # 6 years of data for modelling
 cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
 frequency: "W-SUN" # The data granularity.
 boundary: "2015-03-31" # The date boundary; lower boundary.
