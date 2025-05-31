@@ -1,0 +1,19 @@
+{
+  "seed": 25,
+  "spanning": 2.5,
+  "frequency": "7D",
+  "seasons": {
+    "number_of": 52
+  },
+  "testing": 9,
+  "ahead": 9,
+  "n_variational_steps": 200,
+  "learning_rate": 0.1,
+  "n_samples": 35,
+  "s3": {
+    "p_bucket": "internal",
+    "p_prefix": "path_internal_data",
+    "affix": "modelling"
+  },
+  "cpu": true
+}
