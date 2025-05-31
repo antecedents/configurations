@@ -1,6 +1,8 @@
 seed: 25
-spanning: 2.5 # 2.5 years of data for modelling
-frequency: "7D" # The data granularity.
+spanning: 6 # 6 years of data for modelling
+cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
+frequency: "W-SUN" # The data granularity.
+boundary: "2015-03-31" # The date boundary; lower boundary.
 seasons:
   number_of: 52 # 52 weeks
 testing: 9 # weeks - The testing stage will span these number of weeks
