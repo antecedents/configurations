@@ -1,21 +1,51 @@
 {
-  "data": {
-    "week_ending_date": "The week ending date, a Sunday.",
-    "health_board_code": "The health board code.",
-    "hospital_code": "The hospital code.",
-    "n_attendances": "The original counts.",
-    "trend": "The trend component after decomposition.",
-    "residue": "The residue component after decomposition.",
-    "seasonal": "The seasonal component after decomposition."
+  "variational": {
+    "data": {
+      "week_ending_date": "The week ending date, a Sunday.",
+      "health_board_code": "The health board code.",
+      "hospital_code": "The hospital code.",
+      "n_attendances": "The original counts.",
+      "trend": "The trend component after decomposition.",
+      "residue": "The residue component after decomposition.",
+      "seasonal": "The seasonal component after decomposition."
+    },
+    "model": {
+
+    }
   },
-  "models": {
-    "scf_estimates.json": "Seasonal Component Forecasting -> Estimates.",
-    "scf_extra.json": "Seasonal Component Forecasting -> Supplementary details.",
-    "scf_measures.tex": "Seasonal Component Forecasting -> Model measures.",
-    "scf_measures.txt": "Seasonal Component Forecasting -> Model measures.",
-    "tcf_algorithm.pdf": "Trend Component Forecasting -> The model architecture diagram.",
-    "tcf_algorithm.txt": "Trend Component Forecasting -> The definitions of the model architecture distributions.",
-    "tcf_details.nc": "Trend Component Forecasting -> The inference data.",
-    "tcf_forecasts.csv": "Trend Component Forecasting -> Estimates."
+  "futures": {
+    "data": {
+      "week_ending_date": "The week ending date, a Sunday.",
+      "health_board_code": "The health board code.",
+      "hospital_code": "The hospital code.",
+      "n_attendances": "The original counts.",
+      "trend": "The trend component after decomposition.",
+      "residue": "The residue component after decomposition.",
+      "seasonal": "The seasonal component after decomposition."
+    },
+    "scf_estimates.json": {
+      "description": "Seasonal Component Forecasting -> Estimates."
+    },
+    "scf_extra.json": {
+      "description": "Seasonal Component Forecasting -> Supplementary details."
+    },
+    "scf_measures.tex": {
+      "description": "Seasonal Component Forecasting -> Model measures."
+    },
+    "scf_measures.txt": {
+      "description": "Seasonal Component Forecasting -> Model measures."
+    },
+    "tcf_algorithm.pdf": {
+      "description": "Trend Component Forecasting -> The model architecture diagram."
+    },
+    "tcf_algorithm.txt": {
+      "description": "Trend Component Forecasting -> The definitions of the model architecture distributions."
+    },
+    "tcf_details.nc": {
+      "description": "Trend Component Forecasting -> The inference data."
+    },
+    "tcf_forecasts.csv": {
+      "description": "Trend Component Forecasting -> Estimates."
+    }
   }
 }
