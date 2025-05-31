@@ -1,6 +1,5 @@
 {
   "seed": 25,
-  "spanning": 6,
   "cycles": 3,
   "frequency": "W-SUN",
   "boundary": "2015-03-31",
