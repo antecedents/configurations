@@ -15,7 +15,7 @@
       "upper_w": "The upper whisker an attendance count estimate.",
       "timestamp": "A timestamp."
     },
-    "evidence_lower_boundary": {
+    "evidence_lower_bound": {
       "index": "The ordinal index of an evidence bound value.",
       "evidence_lower_bound": "An evidence lower bound value."
     },
