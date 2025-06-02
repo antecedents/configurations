@@ -5,7 +5,7 @@ Development Notes
 <br>
 
 - [ ] Delete directory [external](/data/external); Items transferred to [/data/numerics](/data/numerics)
-- [ ] Delete [artefacts/architecture/arguments.json](/data/artefacts/architecture/arguments.json), [artefacts/architecture/arguments.yaml](/data/artefacts/architecture/arguments.yaml)
+- [ ] Delete [artefacts/architecture/arguments.json](/data/decompositions/arguments.json), [artefacts/architecture/arguments.yaml](/data/decompositions/arguments.yaml)
 - [ ] Delete directory [artefacts/metadata/](/data/artefacts/metadata)
 
 <br>
