@@ -1,0 +1,21 @@
+seed: 100
+seasons: 52
+trends: 1
+cycles: 3 # The minimum number of seasons for determining the minimum number of data instances required
+frequency: "W-SUN" # The attendance counts are weekly, ending Sunday
+boundary: "2015-03-31" # The date boundary
+decompose: # For Seasonal Trend LOESS (locally estimated scatterplot smoothing) Decomposition
+  smoother_seasonal: 51
+  smoother_trend: null
+  degree_seasonal: 0
+  degree_trend: 1
+sc: # Seasonal Component Modelling: Naive Modelling
+  smoother_seasonal: 51
+  smoother_trend: null
+  degree_seasonal: 0
+  degree_trend: 0
+  P: 1 # Auto-regressive order
+  D: 0 # The degree of first differencing
+  Q: 0 # Moving average order
+  m: 52 # The # of observations per year
+ahead: 9 # Prediction steps ahead
